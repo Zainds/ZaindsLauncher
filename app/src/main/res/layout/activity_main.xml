@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FFB6C1"
+    >
+
+    <TextView
+        android:layout_width="315dp"
+        android:layout_height="98dp"
+        android:text="не лезь в мой проект еблан"
+        android:gravity="center"
+        android:textColor="#DC143C"
+        android:textSize="39dp" />
+
+
+
+    <EditText
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FF1493"
+        android:hint="привет мурат"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FF1493"
+        android:hint="я делал его 2 часа"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="250dp"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:layout_width="350dp"
+        android:layout_height="294dp"
+        android:textColor="#FF1493"
+        android:src="@drawable/waifu"
+        android:text="маме здоровья"
+        android:background="#FF69B4"
+        android:textSize="28dp"
+        android:onClick="DANCE"/>
+
+
+
+</LinearLayout>
